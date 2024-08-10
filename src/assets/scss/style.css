@@ -1,0 +1,90 @@
+button,
+button:focus {
+    text-decoration: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.home-page {
+    background: url(../images/main-bg.png) no-repeat;
+    background-size: cover;
+}
+
+.home-content {
+    min-height: calc(100vh - 108px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand {
+    font-size: 40px;
+    font-weight: 500;
+    color: #FF286E;
+}
+
+.home-content h1 {
+    font-size: 60px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.home-content h1 span {
+    font-weight: 500;
+    color: #FF286E;
+}
+
+.home-content p {
+    font-size: 22px;
+    line-height: 36px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.common-btn {
+    border: 2px solid #FF286E;
+    background: transparent;
+    border-radius: 50px;
+    height: 48px;
+    font-weight: 600;
+    min-width: 250px;
+    font-size: 18px;
+    color: #FF286E;
+    transition: all 0.5s;
+}
+
+.common-btn:hover {
+    color: #fff;
+    background: #FF286E;
+}
+
+.metaverse-page {
+    /* background: url(../images/metaverse.png) no-repeat; */
+    background-size: cover;
+}
+.metaverse-page h1{
+    text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;
+    font-size: 70px;
+    font-weight: 700;
+}
+.metaverse-page header {
+    background: #ffffffab;
+    box-shadow: 0 0px 90px #fff;
+}
+.mytoggle input[switch] + label {
+    width: 82px;
+}
+.mytoggle input[switch]:checked + label:after {
+    left: 59px;
+}
+.invalid-feedback{
+    color: red;
+    display: block !important;
+}
+
+.background-user-image{
+    background-image: url('../images/background-user.png');
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: -6%;
+}
