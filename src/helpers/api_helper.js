@@ -6,8 +6,8 @@ const token = accessToken;
 
 //apply base url for axios
 // const API_URL = "http://localhost:8002/api";
-const API_URL = "http://16.171.174.131:8002/api";
-export const IMAGE_BASE_URL = "http://16.171.174.131:8002/uploads/";
+const API_URL = "https://16.171.4.196:8002/api";
+export const IMAGE_BASE_URL = "https://16.171.4.196:8002/uploads/";
 // const API_URL = "https://artgallery-apis.zip2box.com/api"
 // export const IMAGE_BASE_URL = "https://artgallery-apis.zip2box.com/uploads/"
 // const API_URL = "https://apis.hypsoverse.com/api"
